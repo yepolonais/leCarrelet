@@ -1,0 +1,38 @@
+Faire le lien entre un dossier en local et un repo Github:
+
+1. Installer Git
+2. Créer un nouveau fichier
+3. Clic-droit sur le fichier => Git bash here
+4. Un terminal s'ouvre. Taper dedans :
+5. git init => le fichier peut maintenant être managé avec git
+6. On peut travailler autant que l'on veut sur le dossier. Une fois que l'on a terminé, taper dans le terminal:
+7. git add * => cela ajoutera tout ce que l'on a fait dans la zone de tampon (le "stage")
+8. git commit -m"court texte expliquant ce que l'on a fait". Cela permet de sauvegarder sur sa branche tout ce qui est dans le "stage".
+9. Allez sur Github. Créer un nouveau repository.
+10. Donner un nom mémorable (genre leCarrelet), une description, le mettre en privé pour l'instant et ne pas l'initialiser avec un README pour l'instant.
+11. Copier les instructions (2 lignes) contenues dans "push an existing repository from the command line"
+12. Coller les instructions dans le terminal (Ctrl+V ne fonctionne pas, il faut faire un clic droit:coller):
+13. git remote add origin https://github.com/yepolonais/leCarrelet.git => cela permet de faire le lien entre notre dossier local et le repo github
+14. git push -u origin master => cela permet d'envoyer le contenu de notre dossier local vers Github (tout ce qui a été commit).
+15. Et voilà, tout est en place pour bosser!
+
+Se connecter à un repo github déjà créé par soi-même sur un autre poste, ou par un collègue:
+
+1. Installer Git
+2. Créer un nouveau fichier
+3. Clic-droit sur le fichier => Git bash here
+4. Un terminal s'ouvre. Taper dedans :
+5. git clone https://github.com/yepolonais/leCarrelet.git. L'URL est celle du repo github, qui est susceptible de varier of course
+6. C'est tout!
+
+
+
+
+Utilisation au jour le jour de Git:
+
+1. Clic-droit sur le fichier => Git bash here
+2. git pull => on récupère tout ce qui a été fait par nous sur un autre poste ou par les autres, et qui a été pushé sur github.
+3. Lorsque l'on a fini de bosser:
+4. git add *
+5. git commit -m"mes commentaires"
+6. git push
