@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4D4D4D;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#B3B3B3;stroke:#000000;stroke-miterlimit:10;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:40px;}
+	.st5{font-size:20px;}
+	.st6{fill:#FFFFFF;}
+</style>
+<g>
+	<rect x="0.5" y="0.5" class="st0" width="1919" height="1079"/>
+	<path d="M1919,1v1078H1V1H1919 M1920,0H0v1080h1920V0L1920,0z"/>
+</g>
+<g>
+	<line class="st1" x1="0.5" y1="-0.5" x2="1909.5" y2="1079.5"/>
+</g>
+<line class="st1" x1="1920.5" y1="-0.5" x2="0.5" y2="1079.5"/>
+<rect x="0.5" y="-0.5" class="st2" width="1920" height="80"/>
+<rect x="0.5" y="999.5" class="st2" width="1920" height="80"/>
+<circle class="st2" cx="960.5" cy="307.5" r="188"/>
+<rect x="328.54" y="766.5" class="st2" width="444.08" height="150"/>
+<rect x="1181.63" y="766.5" class="st2" width="444.08" height="150"/>
+<text transform="matrix(1 0 0 1 836.0435 553.4785)" class="st3 st4">01 23 45 67 89</text>
+<text transform="matrix(1 0 0 1 772.9313 602.3054)" class="st3 st4">2 Adresse du bar 33000</text>
+<text transform="matrix(1 0 0 1 844.6121 652.3052)" class="st3 st4">12h00 - 23h00</text>
+<text transform="matrix(1 0 0 1 857.591 702.3051)" class="st3 st4">Happy hour</text>
+<text transform="matrix(1 0 0 1 910.8601 332.3052)" class="st3 st4">LOGO</text>
+<text transform="matrix(1 0 0 1 1326.3484 859.3055)" class="st3 st4">Je réserve</text>
+<text transform="matrix(1 0 0 1 386.0489 859.3053)" class="st3 st4">Je découvre la carte</text>
+<circle cx="44" cy="1041" r="28"/>
+<circle cx="124" cy="1041" r="28"/>
+<text transform="matrix(1 0 0 1 311.8892 1051.3058)" class="st3 st5">Plan du site</text>
+<text transform="matrix(1 0 0 1 470.8891 1051.3055)" class="st3 st5">Mentions légales</text>
+<text transform="matrix(1 0 0 1 658.8891 1051.3055)" class="st3 st5">CGU</text>
+<text transform="matrix(1 0 0 1 755.8891 1051.3055)" class="st3 st5">Copyright</text>
+<text transform="matrix(1 0 0 1 1000.8891 1051.3055)" class="st3 st5">horaires :</text>
+<text transform="matrix(1 0 0 1 1084.8892 1051.3055)" class="st3 st5">lundi : 12h00 - 02h00 |</text>
+<text transform="matrix(1 0 0 1 1281.8892 1051.3055)" class="st3 st5">mardi - vendredi : 12h00 - 02h00 |</text>
+<text transform="matrix(1 0 0 1 1570.8892 1051.3055)" class="st3 st5">samedi : 12h00 - 02h00</text>
+<text transform="matrix(1 0 0 1 16.3918 55.349)" class="st3 st4">LOGO</text>
+<text transform="matrix(1 0 0 1 709.3918 55.349)" class="st3 st4">Galerie</text>
+<text transform="matrix(1 0 0 1 398.3918 55.349)" class="st3 st4">Evènements</text>
+<text transform="matrix(1 0 0 1 926.3918 55.349)" class="st3 st4">Ateliers</text>
+<text transform="matrix(1 0 0 1 1133.3918 55.349)" class="st3 st4">la Carte</text>
+<text transform="matrix(1 0 0 1 1330.3918 55.349)" class="st3 st4">A propos</text>
+<text transform="matrix(1 0 0 1 1544.3918 55.349)" class="st3 st4">Contact</text>
+<text transform="matrix(1 0 0 1 1746.3918 55.349)" class="st3 st4">Réserver</text>
+<text transform="matrix(1 0 0 1 35.218 1055.7401)" class="st6 st3 st4">F</text>
+<text transform="matrix(1 0 0 1 120.218 1055.7401)" class="st6 st3 st4">i</text>
+</svg>
