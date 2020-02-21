@@ -1,0 +1,103 @@
+Site vitrine pour un bar à cocktails
+
+-> évènement
+
+-> carte de boissons + plats
+-> catégories de produits
+
+-> galeries de photos
+
+- Pages
+    - Accueil
+    - Evénements
+    - Formulaire
+    - carte
+    - A propos + mentions légales
+
+- Entités (MCD)
+    - Evenement
+        - Titre (texte)
+        - DateHeure début (date+heure)
+        - DateHeure fin (date+heure)
+        - Description (texte)
+        - [Photo]
+    - Galerie    
+        - Titre (texte)
+        - [Photo]
+    - Photo
+        - Description
+    - Ingrédient
+        - Nom
+    - Produit
+        - Nom
+        - Description
+        - [Photo]
+        - [Ingrédient]
+        - [Conditionnement]
+    - Catégorie
+        - Nom
+        - [Produit]
+        - [Sous-catégorie]
+    - Sous-catégorie 
+        - Nom  
+        - [Produit]
+        - [Catégorie]
+    - Conditionnement
+        - Prix
+        - Quantité (numérique)
+        - Unité_Quantité (texte)
+        - [Catégorie]
+        - [Sous-Catégorie]
+
+- Tables
+    - evenement
+        - id, AI
+        - titre, varchar, 255, not NULL
+        - debut, datetime, not NULL   
+        - fin, datetime, NULL
+        - description, text, not NULL   
+    - galerie
+        - id, AI
+        - titre, varchar, 255, not NULL
+    - photo
+        - id, AI
+        - description, text, NULL
+        - galerie_id, clé étrangère, NULL
+    - photo_evenement
+        - id, AI
+        - photo_id, clé étrangère, not NULL
+        - evenement_id, clé étrangère, not NULL
+    - ingredient
+        - id, AI
+        - nom, varchar 255, not NULL
+    - ingredient_produit
+        - id, AI
+        - ingredient_id, clé étrangère, not NULL
+        - produit_id, clé étrangère, not NULL
+    - produit
+        - id, AI
+        - nom, varchar 255, not NULL
+        - description, text, NULL
+        - photo_id, clé étrangère, NULL
+    - conditionnement
+        - id, AI
+        - quantité, entier, null
+        - unité, varchar 255, null
+    - conditionnement_produit
+        - id, AI
+        - prix, entier, not NULL
+        - produit_id, clé étrangère, not NULL
+        - conditionnement_id, clé étrangère, not NULL
+        - category_id, clé étrangère, not NULL
+    - categorie
+        - id, AI
+        - nom, varchar 255, not NULL
+        - parent_id, clé étrangère, NULL
+
+Table de jointure
+id  photo_id    evenement_id
+1   15          100
+2   15          101
+3   15          102
+4   31          50
+5   56          50
