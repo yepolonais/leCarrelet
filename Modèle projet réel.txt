@@ -101,3 +101,40 @@ id  photo_id    evenement_id
 3   15          102
 4   31          50
 5   56          50
+
+
+Autres propo (plus simple):
+
+Entités :
+
+- Catégorie
+	- [Catégorie]
+	- Titre
+	- Sous-titre
+
+- Ligne
+	- Titre
+	- Texte
+	- Prix
+
+- Conditionnement
+	- Nom
+
+- Ligne_Conditionnement
+	- [Conditionnement]
+	- [Ligne]
+	- Prix
+
+
+Pages :
+
+- Accueil
+- La carte
+- Contact (formulaire)
+- Evènement
+- Mentions légales
+
+
+
+
+
